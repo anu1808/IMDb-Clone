@@ -1,0 +1,110 @@
+.title{
+  background-color: black;
+  width: 100px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.nav{
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+}
+    
+ .search{
+  width: 200px;
+  
+ } 
+  .movie-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .movie-row {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .movie-poster {
+    width: 50px;
+    height: 75px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .movie-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .movie-title {
+    font-weight: bold;
+    margin-right: 40px; /* Increased margin */
+  }
+  
+  .movie-genres {
+    margin-left: 10px;
+  }
+  
+  .movie-rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .movie-rating .star {
+    color: gold;
+    margin-right: 5px;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    width: 80vw;
+    height: 80vh;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .div3{
+    width: 70%;
+  }
+  .maindiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .img{
+    width: 40vh;
+    height: 60vh;
+  }
+
